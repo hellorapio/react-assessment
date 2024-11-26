@@ -11,7 +11,7 @@ export default function Favorites() {
       <NavBar />
       <h2 className="text-center font-bold text-xl mt-10">Favorites</h2>
       <Wrapper>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
           {favs.map((product: Product) => (
             <ProductItem key={product.id} {...product} />
           ))}
