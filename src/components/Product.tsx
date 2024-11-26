@@ -32,7 +32,7 @@ export default function ProductItem({
         </Link>
       </div>
 
-      <div className="mb-4 flex flex-col gap-4">
+      <div className="mb-4 flex flex-col gap-4 flex-grow">
         <Link to={"/" + id}>
           <h3 className="text-lg font-bold underline underline-offset-4">
             {title}
